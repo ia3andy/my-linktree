@@ -1,17 +1,9 @@
 profile:
   name: Andy Damevin
   title: Software Engineer & Open Source Creator
-  bio: Building tools for the Java web with Quarkus. Creator of Roq, mvnpm, and the Quarkus Web Bundler.
+  bio: Building tools for the web with Quarkus and Java. Creator of Roq, mvnpm, and the Quarkus Web Bundler.
 
 links:
-  - name: LinkedIn
-    url: https://www.linkedin.com/in/ia3andy
-    description: Professional profile
-    icon: linkedin-logo
-  - name: Bluesky
-    url: https://bsky.app/profile/ia3andy.dev
-    description: Follow me on Bluesky
-    icon: butterfly
   - name: iamroq.dev
     url: https://iamroq.dev
     description: Roq, the SSG with a Java soul and Quarkus energy
@@ -28,3 +20,11 @@ links:
     url: https://quarkus.io
     description: Supersonic Subatomic Java framework
     icon: lightning
+
+social:
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/ia3andy
+    icon: linkedin-logo
+  - name: Bluesky
+    url: https://bsky.app/profile/ia3andy.dev
+    icon: butterfly

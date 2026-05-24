@@ -1,3 +1,55 @@
 @import "tailwindcss";
 @import "@phosphor-icons/web/regular";
 @import "@phosphor-icons/web/fill";
+
+/* Wave animations - 3 rows at different speeds/directions */
+.wave {
+  display: inline-block;
+}
+
+.wave-1 {
+  animation: wave-roll-1 3s ease-in-out infinite;
+}
+
+.wave-2 {
+  animation: wave-roll-2 4s ease-in-out infinite;
+}
+
+.wave-3 {
+  animation: wave-roll-3 5s ease-in-out infinite;
+}
+
+@keyframes wave-roll-1 {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(6px); }
+}
+
+@keyframes wave-roll-2 {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(-4px); }
+}
+
+@keyframes wave-roll-3 {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(3px); }
+}
+
+/* Sun rays shimmer */
+.sun-rays {
+  animation: shimmer 3s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+/* Follow me bounce arrow */
+.bounce-arrow {
+  animation: bounce-down 1.5s ease-in-out infinite;
+}
+
+@keyframes bounce-down {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(4px); }
+}
