@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const fit = () => {
       scene.style.zoom = '1';
       if (!baseWidth && pre) baseWidth = pre.scrollWidth;
-      const available = window.innerWidth;
+      const available = scene.parentElement ? scene.parentElement.clientWidth : window.innerWidth;
       const maxWidth = 512;
       const target = Math.min(available, maxWidth);
       if (baseWidth > 0) scene.style.zoom = String(target / baseWidth);
