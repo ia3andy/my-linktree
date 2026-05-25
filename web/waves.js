@@ -2,10 +2,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const scene = document.querySelector('.scene-container');
   if (scene) {
     const pre = scene.querySelector('pre');
-    let baseWidth = 0;
     const fit = () => {
       scene.style.zoom = '1';
-      if (!baseWidth && pre) baseWidth = pre.scrollWidth;
+      const baseWidth = pre ? pre.scrollWidth : 0;
       const available = scene.parentElement ? scene.parentElement.clientWidth : window.innerWidth;
       const maxWidth = 512;
       const target = Math.min(available, maxWidth);
@@ -13,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     fit();
     window.addEventListener('resize', fit);
+    document.fonts.ready.then(fit);
   }
 
   const rows = document.querySelectorAll('.wave-row');
