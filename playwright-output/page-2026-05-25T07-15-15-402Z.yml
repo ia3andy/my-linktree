@@ -1,0 +1,52 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e6]: "| \\ / .---. -- / \\ -- ~~~~~~~~~~~~~~~~~~~~~/ \\~~~~~~~~~~~~~~~~~~~~~"
+    - generic [ref=e7]:
+      - generic [ref=e8]: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      - generic [ref=e9]:
+        - generic [ref=e10]: _\/_
+        - generic [ref=e11]: _\/_
+        - generic [ref=e12]: /o\\
+        - generic [ref=e13]: //o\
+        - generic [ref=e14]: "|"
+        - generic [ref=e15]: "|"
+        - text: "| | ___|____________________________________________|___"
+  - generic [ref=e16]:
+    - heading "Andy Damevin" [level=1] [ref=e17]
+    - paragraph [ref=e18]: Software Engineer & Open Source Creator
+  - generic [ref=e19]:
+    - paragraph [ref=e20]:
+      - text: Follow me
+      - generic [ref=e21]: ↓
+    - generic [ref=e22]:
+      - link "LinkedIn" [ref=e23] [cursor=pointer]:
+        - /url: https://www.linkedin.com/in/ia3andy
+        - generic [ref=e24]: 
+      - link "Bluesky" [ref=e25] [cursor=pointer]:
+        - /url: https://bsky.app/profile/ia3andy.dev
+        - generic [ref=e26]: 
+  - generic [ref=e27]:
+    - link "$ iamroq.dev ->" [ref=e28] [cursor=pointer]:
+      - /url: https://iamroq.dev
+      - generic [ref=e29]:
+        - generic [ref=e30]: $
+        - generic [ref=e31]: iamroq.dev
+      - generic [ref=e32]: "->"
+    - link "$ devoured.fyi ->" [ref=e33] [cursor=pointer]:
+      - /url: https://devoured.fyi
+      - generic [ref=e34]:
+        - generic [ref=e35]: $
+        - generic [ref=e36]: devoured.fyi
+      - generic [ref=e37]: "->"
+    - link "$ mvnpm.org ->" [ref=e38] [cursor=pointer]:
+      - /url: https://mvnpm.org
+      - generic [ref=e39]:
+        - generic [ref=e40]: $
+        - generic [ref=e41]: mvnpm.org
+      - generic [ref=e42]: "->"
+    - link "$ quarkus.io ->" [ref=e43] [cursor=pointer]:
+      - /url: https://quarkus.io
+      - generic [ref=e44]:
+        - generic [ref=e45]: $
+        - generic [ref=e46]: quarkus.io
+      - generic [ref=e47]: "->"

@@ -1,0 +1,11 @@
+[      69ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:55
+[   39395ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:55
+[   39620ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:55
+[  127916ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8081/links:0
+[  132418ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8081/links:0
+[  134628ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:55
+[  141356ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:53
+[  141650ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:53
+[  142501ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:53
+[  142758ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:53
+[  142961ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:53

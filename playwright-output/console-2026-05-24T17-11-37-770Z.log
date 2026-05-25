@@ -1,0 +1,5 @@
+[      49ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:1
+[   30493ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:1
+[   80546ms] [ERROR] Failed to load resource: net::ERR_INCOMPLETE_CHUNKED_ENCODING @ http://localhost:8081/web-bundler/live:0
+[   81134ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:1
+[   86954ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:1

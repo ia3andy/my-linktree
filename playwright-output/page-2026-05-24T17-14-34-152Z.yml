@@ -1,0 +1,45 @@
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - text: _\/_ | _\/_ /o\\ \ / //o\ | .---. | | -- / \ -- | _____________|___________ / \ ___________|______________
+    - generic [ref=e6]: "`~^~^~^~^~^~^~^~^~^~^~^~`"
+    - generic [ref=e7]: ~ ~ ~^~ ~ ~^~ ~ ~^~ ~ ~^~ ~ ~^~ ~ ~^~ ~
+    - generic [ref=e8]: ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+  - generic [ref=e9]:
+    - heading "Andy Damevin" [level=1] [ref=e10]
+    - paragraph [ref=e11]: Software Engineer & Open Source Creator
+  - generic [ref=e12]:
+    - paragraph [ref=e13]:
+      - text: Follow me
+      - generic [ref=e14]: ↓
+    - generic [ref=e15]:
+      - link "LinkedIn" [ref=e16] [cursor=pointer]:
+        - /url: https://www.linkedin.com/in/ia3andy
+        - generic [ref=e17]: 
+      - link "Bluesky" [ref=e18] [cursor=pointer]:
+        - /url: https://bsky.app/profile/ia3andy.dev
+        - generic [ref=e19]: 
+  - generic [ref=e20]:
+    - link "$ iamroq.dev ->" [ref=e21] [cursor=pointer]:
+      - /url: https://iamroq.dev
+      - generic [ref=e22]:
+        - generic [ref=e23]: $
+        - generic [ref=e24]: iamroq.dev
+      - generic [ref=e25]: "->"
+    - link "$ devoured.fyi ->" [ref=e26] [cursor=pointer]:
+      - /url: https://devoured.fyi
+      - generic [ref=e27]:
+        - generic [ref=e28]: $
+        - generic [ref=e29]: devoured.fyi
+      - generic [ref=e30]: "->"
+    - link "$ mvnpm.org ->" [ref=e31] [cursor=pointer]:
+      - /url: https://mvnpm.org
+      - generic [ref=e32]:
+        - generic [ref=e33]: $
+        - generic [ref=e34]: mvnpm.org
+      - generic [ref=e35]: "->"
+    - link "$ quarkus.io ->" [ref=e36] [cursor=pointer]:
+      - /url: https://quarkus.io
+      - generic [ref=e37]:
+        - generic [ref=e38]: $
+        - generic [ref=e39]: quarkus.io
+      - generic [ref=e40]: "->"

@@ -1,0 +1,24 @@
+[      80ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[   52963ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[   79982ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  128014ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  130040ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  201948ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  346015ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  346653ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  354102ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  357473ms] [LOG] Live-reload: /static/bundle/app.css @ http://localhost:8081/static/bundle/app.js:96
+[  357474ms] ReferenceError: g is not defined
+    at EventSource.<anonymous> (http://localhost:8081/static/bundle/app.js:106:13)
+[  358390ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  358884ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  359079ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  365915ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  366137ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  366356ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  366549ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  370254ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  383933ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  385012ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  415967ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  421733ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67

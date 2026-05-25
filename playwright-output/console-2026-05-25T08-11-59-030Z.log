@@ -1,0 +1,11 @@
+[      84ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:88
+[   39247ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:88
+[  313206ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:88
+[ 5802404ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ http://localhost:8081/web-bundler/live:0
+[ 5803538ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:88
+[ 5822978ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ http://localhost:8081/web-bundler/live:0
+[ 5824575ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:88
+[ 5926261ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ http://localhost:8081/web-bundler/live:0
+[ 5926812ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:88
+[13429950ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:88
+[13557828ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:88

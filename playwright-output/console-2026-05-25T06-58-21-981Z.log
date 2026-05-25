@@ -1,0 +1,19 @@
+[      69ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[   76103ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[   76246ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[   76876ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[   84124ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ chrome-error://chromewebdata/:0
+[   84809ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[   93801ms] [LOG] Live-reload: /static/bundle/app.css @ http://localhost:8081/static/bundle/app.js:96
+[   93807ms] ReferenceError: g is not defined
+    at EventSource.<anonymous> (http://localhost:8081/static/bundle/app.js:106:13)
+[   94407ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  118335ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  118843ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  119578ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  120118ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  133816ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  133975ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  164989ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  169891ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
+[  170036ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:67
