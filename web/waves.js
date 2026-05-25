@@ -3,12 +3,18 @@ document.addEventListener('DOMContentLoaded', () => {
   if (scene) {
     const pre = scene.querySelector('pre');
     const fit = () => {
-      scene.style.zoom = '1';
+      scene.style.transform = 'scale(1)';
+      scene.style.height = '';
       const baseWidth = pre ? pre.scrollWidth : 0;
+      const baseHeight = scene.scrollHeight;
       const available = scene.parentElement ? scene.parentElement.clientWidth : window.innerWidth;
       const maxWidth = 512;
       const target = Math.min(available, maxWidth);
-      if (baseWidth > 0) scene.style.zoom = String(target / baseWidth);
+      if (baseWidth > 0) {
+        const s = target / baseWidth;
+        scene.style.transform = 'scale(' + s + ')';
+        scene.style.height = (baseHeight * s) + 'px';
+      }
     };
     fit();
     window.addEventListener('resize', fit);
