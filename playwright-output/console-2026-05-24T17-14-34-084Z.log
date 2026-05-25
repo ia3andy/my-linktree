@@ -1,6 +1,0 @@
-[      47ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:1
-[   13279ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:1
-[   44878ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:1
-[  100304ms] [LOG] Live-reload: /static/bundle/app.css @ http://localhost:8081/static/bundle/app.js:30
-[  100313ms] ReferenceError: g is not defined
-    at EventSource.<anonymous> (http://localhost:8081/static/bundle/app.js:40:13)

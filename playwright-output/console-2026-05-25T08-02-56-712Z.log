@@ -1,2 +1,0 @@
-[      72ms] [LOG] web-bundler live-reload is enabled @ http://localhost:8081/static/bundle/app.js:82
-[     134ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8081/favicon.ico:0
