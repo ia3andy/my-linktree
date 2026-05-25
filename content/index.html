@@ -6,7 +6,10 @@ title: Andy Damevin
 <div class="flex items-start justify-center pt-4 pb-6">
   <div class="w-full max-w-lg mx-auto space-y-6 font-mono">
 
+    <!-- Scene: sun + waves + shore -->
     <div class="scene-container overflow-hidden mx-auto text-center" aria-hidden="true">
+
+      <!-- Sun -->
       <div class="text-center select-none">
         <pre class="inline-block text-xs sm:text-sm leading-snug sun-layer"><span class="sun-ray text-yellow-500 dark:text-yellow-400">                          </span><span class="sun-ray-center text-yellow-400 dark:text-yellow-300">|</span><span class="sun-ray text-yellow-500 dark:text-yellow-400">                         </span>
 <span class="sun-ray text-yellow-500 dark:text-yellow-400">                      \       /                     </span>
@@ -14,8 +17,12 @@ title: Andy Damevin
 <span class="sun-ray text-yellow-500 dark:text-yellow-400">                  --</span><span class="text-yellow-300 dark:text-yellow-200">  /       \  </span><span class="sun-ray text-yellow-500 dark:text-yellow-400">--</span><span class="text-yellow-500 dark:text-yellow-400">                 </span>
 <span class="text-cyan-400 dark:text-cyan-300">~~~~~~~</span><span class="text-cyan-500 dark:text-cyan-400">~~~~~~~</span><span class="text-amber-400 dark:text-amber-300">~~~~~~~</span><span class="text-yellow-300 dark:text-yellow-200">/         \</span><span class="text-amber-400 dark:text-amber-300">~~~~~~</span><span class="text-cyan-500 dark:text-cyan-400">~~~~~~~</span><span class="text-cyan-400 dark:text-cyan-300">~~~~~~~</span></pre>
       </div>
-      <div class="ascii-scene text-center select-none relative !-mt-3" aria-hidden="true">
-      <pre class="inline-block text-xs sm:text-sm wave-block"><span class="wave-row text-cyan-400 dark:text-cyan-300"> </span>
+
+      <!-- Waves + Shore -->
+      <div class="ascii-scene text-center select-none relative !-mt-2">
+
+        <!-- Animated wave rows -->
+        <pre class="inline-block text-xs sm:text-sm wave-block"><span class="wave-row text-cyan-400 dark:text-cyan-300"> </span>
 <span class="wave-row text-cyan-400 dark:text-cyan-300"> </span>
 <span class="wave-row text-cyan-500 dark:text-cyan-400"> </span>
 <span class="wave-row text-cyan-500 dark:text-cyan-400"> </span>
@@ -35,20 +42,25 @@ title: Andy Damevin
 <span class="wave-row text-blue-900 dark:text-blue-800"> </span>
 <span class="wave-row text-blue-950 dark:text-blue-900"> </span>
 <span class="wave-row text-blue-950 dark:text-blue-900"> </span></pre>
-      <pre class="inline-block text-xs sm:text-sm leading-snug shore-layer"><span class="palm-sway text-green-700 dark:text-green-500">  _\/_</span>                                         <span class="palm-sway-r text-green-700 dark:text-green-500">_\/_</span>
+
+        <!-- Palm trees + ground (overlaid at bottom) -->
+        <pre class="inline-block text-xs sm:text-sm leading-snug shore-layer"><span class="palm-sway text-green-700 dark:text-green-500">  _\/_</span>                                         <span class="palm-sway-r text-green-700 dark:text-green-500">_\/_</span>
 <span class="palm-sway text-green-700 dark:text-green-500">  /o\\</span>                                         <span class="palm-sway-r text-green-700 dark:text-green-500">//o\</span>
 <span class="palm-sway text-green-700 dark:text-green-500">   |</span>                                            <span class="palm-sway-r text-green-700 dark:text-green-500">|</span>
 <span class="palm text-green-700 dark:text-green-500">   |</span>                                            <span class="palm text-green-700 dark:text-green-500">|</span>
 <span class="text-amber-800 dark:text-amber-600">___|____________________________________________|___</span></pre>
+
       </div>
     </div>
 
+    <!-- Profile -->
     <div class="text-center space-y-1">
       <h1 class="text-xl font-bold tracking-tight text-amber-700 dark:text-yellow-300">{cdi:links.profile.name}</h1>
       <p class="text-xs text-amber-500 dark:text-amber-400">@ia3andy</p>
       <p class="text-xs text-amber-600 dark:text-amber-400">{cdi:links.profile.title}</p>
     </div>
 
+    <!-- Social -->
     <div class="text-center space-y-3">
       <p class="text-xs text-cyan-600 dark:text-cyan-400">Follow me <span class="bounce-arrow inline-block">&#8595;</span></p>
       <div class="flex items-center justify-center gap-6">
@@ -61,10 +73,16 @@ title: Andy Damevin
       </div>
     </div>
 
+    <!-- Links -->
     <div class="space-y-2">
       {#for link in cdi:links.links}
       <a href="{link.url}" target="_blank" rel="noopener noreferrer"
-         class="group flex items-center justify-between px-5 py-3 rounded-md border border-cyan-300/50 dark:border-blue-800 bg-white/50 dark:bg-blue-950/30 hover:bg-cyan-50 dark:hover:bg-blue-900/40 hover:border-cyan-400 dark:hover:border-blue-600 transition-all duration-150">
+         class="group flex items-center justify-between px-5 py-3 rounded-md
+                border border-cyan-300/50 dark:border-blue-800
+                bg-white/50 dark:bg-blue-950/30
+                hover:bg-cyan-50 dark:hover:bg-blue-900/40
+                hover:border-cyan-400 dark:hover:border-blue-600
+                transition-all duration-150">
         <span class="flex items-center gap-3">
           <span class="text-amber-500 dark:text-yellow-500">&gt;</span>
           <span>
