@@ -45,6 +45,7 @@
   flex-direction: column;
   align-items: center;
   transform-origin: top center;
+  overflow: clip;
 }
 
 .scene-container pre {
