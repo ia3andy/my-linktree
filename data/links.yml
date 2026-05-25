@@ -10,7 +10,7 @@ links:
     icon: terminal
   - name: devoured.fyi
     url: https://devoured.fyi
-    description: Dev content and resources
+    description: AI-curated daily developer news, swipe through in minutes
     icon: book-open-text
   - name: mvnpm.org
     url: https://mvnpm.org
@@ -22,6 +22,9 @@ links:
     icon: lightning
 
 social:
+  - name: GitHub
+    url: https://github.com/ia3andy
+    icon: github-logo
   - name: LinkedIn
     url: https://www.linkedin.com/in/ia3andy
     icon: linkedin-logo

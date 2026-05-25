@@ -2,46 +2,63 @@
 @import "@phosphor-icons/web/regular";
 @import "@phosphor-icons/web/fill";
 
-/* Wave animations - 3 rows at different speeds/directions */
-.wave {
+/* Palm tree sway */
+.palm-sway {
   display: inline-block;
+  transform-origin: bottom right;
+  animation: sway-left 3s ease-in-out infinite;
 }
 
-.wave-1 {
-  animation: wave-roll-1 3s ease-in-out infinite;
+.palm-sway-r {
+  display: inline-block;
+  transform-origin: bottom left;
+  animation: sway-right 3.5s ease-in-out infinite;
 }
 
-.wave-2 {
-  animation: wave-roll-2 4s ease-in-out infinite;
+@keyframes sway-left {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(-2deg); }
 }
 
-.wave-3 {
-  animation: wave-roll-3 5s ease-in-out infinite;
-}
-
-@keyframes wave-roll-1 {
-  0%, 100% { transform: translateX(0); }
-  50% { transform: translateX(6px); }
-}
-
-@keyframes wave-roll-2 {
-  0%, 100% { transform: translateX(0); }
-  50% { transform: translateX(-4px); }
-}
-
-@keyframes wave-roll-3 {
-  0%, 100% { transform: translateX(0); }
-  50% { transform: translateX(3px); }
+@keyframes sway-right {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(2deg); }
 }
 
 /* Sun rays shimmer */
-.sun-rays {
-  animation: shimmer 3s ease-in-out infinite;
+.sun-ray {
+  animation: ray-pulse 2s ease-in-out infinite;
 }
 
-@keyframes shimmer {
+.sun-ray-center {
+  animation: ray-pulse 2s ease-in-out infinite 0.3s;
+}
+
+@keyframes ray-pulse {
   0%, 100% { opacity: 1; }
-  50% { opacity: 0.6; }
+  50% { opacity: 0.3; }
+}
+
+/* ASCII scene fixed width */
+.scene-container pre {
+  width: 52ch;
+  text-align: left;
+}
+
+.ascii-scene {
+  position: relative;
+}
+
+.shore-layer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Wave block tight line height */
+.wave-block {
+  line-height: 0.6;
 }
 
 /* Follow me bounce arrow */
