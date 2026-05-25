@@ -40,6 +40,12 @@
 }
 
 /* ASCII scene fixed width */
+.scene-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .scene-container pre {
   width: 52ch;
   text-align: left;
