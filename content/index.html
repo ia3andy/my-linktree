@@ -3,10 +3,10 @@ layout: default
 title: Andy Damevin
 ---
 
-<div class="flex items-start justify-center pt-4 pb-6">
-  <div class="w-full max-w-lg mx-auto space-y-6 font-mono">
+<div class="flex items-start justify-center pb-6 overflow-hidden">
+  <div class="w-full max-w-lg mx-auto space-y-6 font-mono overflow-hidden">
 
-    <div class="scene-container overflow-hidden mx-auto text-center" aria-hidden="true">
+    <div class="scene-container overflow-hidden text-center w-screen relative left-1/2 -translate-x-1/2" aria-hidden="true">
       <div class="text-center select-none">
         <pre class="inline-block text-xs sm:text-sm leading-snug sun-layer"><span class="sun-ray text-yellow-500 dark:text-yellow-400">                          </span><span class="sun-ray-center text-yellow-400 dark:text-yellow-300">|</span><span class="sun-ray text-yellow-500 dark:text-yellow-400">                         </span>
 <span class="sun-ray text-yellow-500 dark:text-yellow-400">                      \       /                     </span>
@@ -51,7 +51,7 @@ title: Andy Damevin
     </div>
 
     <!-- Profile -->
-    <div class="text-center space-y-1">
+    <div class="text-center space-y-1 px-4">
       <h1 class="text-xl font-bold tracking-tight text-amber-700 dark:text-yellow-300">{cdi:links.profile.name}</h1>
       <p class="text-xs text-amber-500 dark:text-amber-400">@ia3andy</p>
       <p class="text-xs text-amber-600 dark:text-amber-400">{cdi:links.profile.title}</p>
@@ -71,7 +71,7 @@ title: Andy Damevin
     </div>
 
     <!-- Links -->
-    <div class="space-y-2">
+    <div class="space-y-2 px-4">
       {#for link in cdi:links.links}
       <a href="{link.url}" target="_blank" rel="noopener noreferrer"
          class="group flex items-center justify-between px-5 py-3 rounded-md

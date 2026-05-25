@@ -1,4 +1,20 @@
 document.addEventListener('DOMContentLoaded', () => {
+  const scene = document.querySelector('.scene-container');
+  if (scene) {
+    const pre = scene.querySelector('pre');
+    let baseWidth = 0;
+    const fit = () => {
+      scene.style.zoom = '1';
+      if (!baseWidth && pre) baseWidth = pre.scrollWidth;
+      const available = window.innerWidth;
+      const maxWidth = 512;
+      const target = Math.min(available, maxWidth);
+      if (baseWidth > 0) scene.style.zoom = String(target / baseWidth);
+    };
+    fit();
+    window.addEventListener('resize', fit);
+  }
+
   const rows = document.querySelectorAll('.wave-row');
   if (!rows.length) return;
 
