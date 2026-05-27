@@ -1,0 +1,15 @@
+name: Andy Damevin
+handle: "@ia3andy"
+title: Software Engineer & Open Source Creator
+bio: Building tools for the web with Quarkus and Java. Creator of Roq, mvnpm, and the Quarkus Web Bundler.
+tree: my-links
+social:
+  - name: GitHub
+    url: https://github.com/ia3andy
+    icon: github-logo
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/ia3andy
+    icon: linkedin-logo
+  - name: Bluesky
+    url: https://bsky.app/profile/ia3andy.bsky.social
+    icon: butterfly

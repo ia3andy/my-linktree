@@ -1,0 +1,19 @@
+title: My Links
+description: Personal link tree
+links:
+  - name: iamroq.dev
+    url: https://iamroq.dev
+    description: Roq, the SSG with a Java soul and Quarkus energy
+    icon: terminal
+  - name: devoured.fyi
+    url: https://devoured.fyi
+    description: AI-curated daily developer news, swipe through in minutes
+    icon: book-open-text
+  - name: mvnpm.org
+    url: https://mvnpm.org
+    description: Use NPM packages directly in Maven and Gradle
+    icon: package
+  - name: quarkus.io
+    url: https://quarkus.io
+    description: Supersonic Subatomic Java framework
+    icon: lightning

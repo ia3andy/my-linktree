@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Andy Damevin
 ---
+{@io.quarkiverse.roq.frontmatter.runtime.model.Page page}
+{@io.quarkiverse.roq.frontmatter.runtime.model.Site site}
 
-{#let defaultTree=cdi:trees.map.get(cdi:profile.tree)}
 <div class="flex items-start justify-center pb-6 overflow-hidden">
   <div class="w-full max-w-lg mx-auto space-y-6 font-mono overflow-hidden">
 
@@ -33,7 +33,7 @@ title: Andy Damevin
 
     <!-- Links -->
     <div class="space-y-2 px-4">
-      {#for link in defaultTree.links}
+      {#for link in page.data.links}
       <a href="{link.url}" target="_blank" rel="noopener noreferrer"
          class="group flex items-center justify-between px-5 py-3 rounded-md
                 border border-cyan-300/50 dark:border-blue-800
@@ -55,4 +55,3 @@ title: Andy Damevin
 
   </div>
 </div>
-{/let}
