@@ -9,6 +9,38 @@ layout: default
 
     {#include partials/scene /}
 
+    <!-- Tree Info -->
+    <div class="text-center px-4">
+      <h2 class="text-lg font-bold text-blue-900 dark:text-cyan-300 mb-2">{page.data.title}</h2>
+      {#if page.data.description}
+      <p class="text-sm text-cyan-600/70 dark:text-blue-400/70">{page.data.description}</p>
+      {/if}
+    </div>
+
+    <!-- Links -->
+    <div class="space-y-2 px-4">
+      {#for link in page.data.links}
+      <a href="{link.url}" target="_blank" rel="noopener noreferrer"
+         class="group flex items-center justify-between px-5 py-3 rounded-md
+                border border-cyan-300/50 dark:border-blue-800
+                bg-white/50 dark:bg-blue-950/30
+                hover:bg-cyan-50 dark:hover:bg-blue-900/40
+                hover:border-cyan-400 dark:hover:border-blue-600
+                transition-all duration-150">
+        <span class="flex items-center gap-3">
+          <i class="ph ph-{link.icon} text-amber-500 dark:text-yellow-500 text-lg"></i>
+          <span>
+            <span class="text-sm text-blue-900 dark:text-cyan-300">{link.name}</span>
+            <span class="block text-xs text-cyan-600/70 dark:text-blue-400/70">{link.description}</span>
+          </span>
+        </span>
+        <span class="text-cyan-400 dark:text-blue-500 group-hover:text-cyan-600 dark:group-hover:text-cyan-300 text-xs transition-colors">&#8209;&gt;</span>
+      </a>
+      {/for}
+    </div>
+
+    <div class="text-center text-sm text-cyan-500 dark:text-blue-400 tracking-[.3em] px-4">~ ~ ~ ~ ~ ~ ~ ~ ~</div>
+
     <!-- Profile -->
     <div class="text-center space-y-1 px-4">
       <h1 class="text-xl font-bold tracking-tight text-amber-700 dark:text-yellow-300">{cdi:profile.name}</h1>
@@ -29,28 +61,6 @@ layout: default
         </a>
         {/for}
       </div>
-    </div>
-
-    <!-- Links -->
-    <div class="space-y-2 px-4">
-      {#for link in page.data.links}
-      <a href="{link.url}" target="_blank" rel="noopener noreferrer"
-         class="group flex items-center justify-between px-5 py-3 rounded-md
-                border border-cyan-300/50 dark:border-blue-800
-                bg-white/50 dark:bg-blue-950/30
-                hover:bg-cyan-50 dark:hover:bg-blue-900/40
-                hover:border-cyan-400 dark:hover:border-blue-600
-                transition-all duration-150">
-        <span class="flex items-center gap-3">
-          <span class="text-amber-500 dark:text-yellow-500">&gt;</span>
-          <span>
-            <span class="text-sm text-blue-900 dark:text-cyan-300">{link.name}</span>
-            <span class="block text-xs text-cyan-600/70 dark:text-blue-400/70">{link.description}</span>
-          </span>
-        </span>
-        <span class="text-cyan-400 dark:text-blue-500 group-hover:text-cyan-600 dark:group-hover:text-cyan-300 text-xs transition-colors">&#8209;&gt;</span>
-      </a>
-      {/for}
     </div>
 
   </div>

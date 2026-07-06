@@ -1,0 +1,27 @@
+title: Riviera Dev 2026
+description: All you need for the Roq lab and talk
+links:
+  - name: iamroq.dev
+    url: https://iamroq.dev
+    description: Roq, the SSG with a Java soul and Quarkus energy
+    icon: terminal
+  - name: Lab
+    description: Start the Roq lab
+    url: https://iamroq.dev/posts/create-a-blog-with-roq/
+    icon: test-tube
+  - name: Lab Slides
+    description: See the Roq lab slides
+    url: https://raw.githubusercontent.com/ia3andy/demo-decks/refs/heads/main/2026-07-07-rivieradev-roq/slides.pdf
+    icon: projector-screen-chart
+  - name: devoured.fyi
+    url: https://devoured.fyi
+    description: AI-curated daily developer news, swipe through in minutes
+    icon: book-open-text
+  - name: mvnpm.org
+    url: https://mvnpm.org
+    description: Use NPM packages directly in Maven and Gradle
+    icon: package
+  - name: quarkus.io
+    url: https://quarkus.io
+    description: Supersonic Subatomic Java framework
+    icon: lightning
