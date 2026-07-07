@@ -17,6 +17,9 @@ links:
     description: See the Roq lab slides
     url: https://raw.githubusercontent.com/ia3andy/demo-decks/refs/heads/main/2026-07-07-rivieradev-roq/slides.pdf
     icon: projector-screen-chart
+  - name: Fred Blanc  Link Tree
+    url: https://fblan.github.io/fred-linktree/
+    icon: person-simple
   - name: devoured.fyi
     url: https://devoured.fyi
     description: AI-curated daily developer news, swipe through in minutes
