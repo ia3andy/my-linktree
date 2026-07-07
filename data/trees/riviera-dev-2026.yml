@@ -5,9 +5,9 @@ links:
     url: https://iamroq.dev
     description: Roq, the SSG with a Java soul and Quarkus energy
     icon: terminal
-  - name: Sigmund Component
+  - name: Sigmund Component Sources
     url: https://github.com/ia3andy/sigmund-psy-component
-    description: Sigmund Full-Stack component with Quarkus langchain4j
+    description: Sources for Sigmund Full-Stack component with Quarkus langchain4j
     icon: hospital
   - name: Lab
     description: Start the Roq lab
