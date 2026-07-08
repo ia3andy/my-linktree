@@ -9,6 +9,10 @@ links:
     url: https://github.com/ia3andy/sigmund-psy-component
     description: Sources for Sigmund Full-Stack component with Quarkus langchain4j
     icon: hospital
+  - name: Lab Slides
+    description: See the Roq Talk slides
+    url: https://raw.githubusercontent.com/ia3andy/demo-decks/refs/heads/main/2026-07-06-rivieradev-roq/slides.pdf
+    icon: projector-screen-chart
   - name: Lab
     description: Start the Roq lab
     url: https://iamroq.dev/posts/create-a-blog-with-roq/
