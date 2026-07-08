@@ -15,7 +15,7 @@ links:
     icon: test-tube
   - name: Lab Slides
     description: See the Roq lab slides
-    url: https://raw.githubusercontent.com/ia3andy/demo-decks/refs/heads/main/2026-07-07-rivieradev-roq/slides.pdf
+    url: https://raw.githubusercontent.com/ia3andy/demo-decks/refs/heads/main/2026-07-06-rivieradev-roq-lab/slides.pdf
     icon: projector-screen-chart
   - name: Fred Blanc  Link Tree
     url: https://fblan.github.io/fred-linktree/
